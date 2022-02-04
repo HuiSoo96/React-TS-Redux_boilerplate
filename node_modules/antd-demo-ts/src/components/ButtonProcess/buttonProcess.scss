@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.buttonProcess {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+
+	.content-process {
+		margin-left: 10px;
+		flex-grow: 1;
+		background-color: $dark-color;
+		color: #fff;
+		padding: 0 10px;
+		border-radius: 2px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+	}
+}

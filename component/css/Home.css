@@ -1,0 +1,89 @@
+ul {
+    padding: 0;
+}
+
+.plus {
+    margin-left: auto;
+    font-size: 12px;
+    align-self: center;
+}
+
+.subtitle {
+    font-size: 24px;
+    display: flex;
+}
+
+.lists {
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 0;
+    list-style: none;
+}
+
+.SKO {
+    margin-top: 300px;
+    clear: both;
+}
+
+.SKO > ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.SKO p {
+    margin-bottom: 7px;
+}
+
+.SKO > ul > li {
+    width: 25%;
+    list-style: none;
+    padding: 20px;
+    border: 1px solid rgba(48, 49, 48, 0.3);
+    display: inline-block;
+}
+
+.SKO > ul > li:first-child {
+    clear: left;
+    float: left;
+    margin-left: 80px;
+}
+
+.SKO > ul > li:last-child {
+    clear: right;
+    float: right;
+    margin-right: 80px;
+}
+
+.SKO > ul > li > div {
+    text-align: center;
+}
+
+.SKO > ul > li > div > a > span:first-child {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 100px;
+}
+
+.SKO > ul > li > div > a > span:last-child {
+    font-size: 17px;
+}
+
+.SKO > ul > li > div > a > span:last-child > span {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+#question {
+    width: 45%;
+    margin: 0;
+    margin-right: 5%;
+    float: left;
+    clear: left;
+}
+
+#information {
+    width: 45%;
+    float: right;
+    margin: 0;
+    clear: right;
+}

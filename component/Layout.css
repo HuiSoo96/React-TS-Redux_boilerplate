@@ -1,0 +1,12 @@
+body {
+    background-color: #FFF;
+}
+
+section.ant-layout {
+    height: auto;
+    background-color: #FFF;
+}
+
+footer.ant-layout-footer {
+    background-color: #FFF;
+}

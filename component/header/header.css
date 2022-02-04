@@ -1,0 +1,39 @@
+#left-menu {
+    flex: 1;
+}
+
+#right-menu {
+    flex: 0;
+}
+
+header.ant-layout-header {
+    background-color: #BDECFD;
+    width: 100%;
+}
+
+ul.ant-menu-overflow {
+    background-color: #BDECFD;
+    border: 0px solid #001529;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* ul > li > span{
+    color: white;
+} */
+
+.right-menu-align {
+    margin-left: auto;
+    text-align: center;
+    float: right;
+}
+
+li.menu-item {
+    /* width: 150px; */
+    display: inline-block;
+    text-align: center;
+    /* color: #FFF; */
+}
